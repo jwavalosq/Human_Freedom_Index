@@ -1,0 +1,163 @@
+wb_country,index_country,changed
+Albania,Albania,False
+Algeria,Algeria,False
+Angola,Angola,False
+Argentina,Argentina,False
+Armenia,Armenia,False
+Australia,Australia,False
+Austria,Austria,False
+Azerbaijan,Azerbaijan,False
+"Bahamas, The",Bahamas,True
+Bahrain,Bahrain,False
+Bangladesh,Bangladesh,False
+Barbados,Barbados,False
+Belarus,Belarus,False
+Belgium,Belgium,False
+Belize,Belize,False
+Benin,Benin,False
+Bhutan,Bhutan,False
+Bolivia,Bolivia,False
+Bosnia and Herzegovina,Bosnia and Herzegovina,False
+Botswana,Botswana,False
+Brazil,Brazil,False
+Brunei Darussalam,Brunei Darussalam,False
+Bulgaria,Bulgaria,False
+Burkina Faso,Burkina Faso,False
+Burundi,Burundi,False
+Cabo Verde,Cape Verde,True
+Cambodia,Cambodia,False
+Cameroon,Cameroon,False
+Canada,Canada,False
+Central African Republic,Central Afr. Rep.,True
+Chad,Chad,False
+Chile,Chile,False
+China,China,False
+Colombia,Colombia,False
+"Congo, Dem. Rep.","Congo, Dem. R.",True
+"Congo, Rep.","Congo, Rep. Of",True
+Costa Rica,Costa Rica,False
+Cote d'Ivoire,Cote d'Ivoire,False
+Croatia,Croatia,False
+Cyprus,Cyprus,False
+Czechia,Czech Rep.,True
+Denmark,Denmark,False
+Dominican Republic,Dominican Rep.,True
+Ecuador,Ecuador,False
+"Egypt, Arab Rep.",Egypt,True
+El Salvador,El Salvador,False
+Estonia,Estonia,False
+Eswatini,Swaziland,True
+Ethiopia,Ethiopia,False
+Fiji,Fiji,False
+Finland,Finland,False
+France,France,False
+Gabon,Gabon,False
+"Gambia, The","Gambia, The",False
+Georgia,Georgia,False
+Germany,Germany,False
+Ghana,Ghana,False
+Greece,Greece,False
+Guatemala,Guatemala,False
+Guinea,Guinea,False
+Guinea-Bissau,Guinea-Bissau,False
+Guyana,Guyana,False
+Haiti,Haiti,False
+Honduras,Honduras,False
+"Hong Kong SAR, China",Hong Kong,True
+Hungary,Hungary,False
+Iceland,Iceland,False
+India,India,False
+Indonesia,Indonesia,False
+"Iran, Islamic Rep.",Iran,True
+Iraq,Iraq,False
+Ireland,Ireland,False
+Israel,Israel,False
+Italy,Italy,False
+Jamaica,Jamaica,False
+Japan,Japan,False
+Jordan,Jordan,False
+Kazakhstan,Kazakhstan,False
+Kenya,Kenya,False
+"Korea, Rep.","Korea, South",True
+Kuwait,Kuwait,False
+Kyrgyz Republic,Kyrgyz Republic,False
+Lao PDR,Laos,True
+Latvia,Latvia,False
+Lebanon,Lebanon,False
+Lesotho,Lesotho,False
+Liberia,Liberia,False
+Libya,Libya,False
+Lithuania,Lithuania,False
+Luxembourg,Luxembourg,False
+"Macedonia, FYR",Macedonia,True
+Madagascar,Madagascar,False
+Malawi,Malawi,False
+Malaysia,Malaysia,False
+Mali,Mali,False
+Malta,Malta,False
+Mauritania,Mauritania,False
+Mauritius,Mauritius,False
+Mexico,Mexico,False
+Moldova,Moldova,False
+Mongolia,Mongolia,False
+Montenegro,Montenegro,False
+Morocco,Morocco,False
+Mozambique,Mozambique,False
+Myanmar,Myanmar,False
+Namibia,Namibia,False
+Nepal,Nepal,False
+Netherlands,Netherlands,False
+New Zealand,New Zealand,False
+Nicaragua,Nicaragua,False
+Niger,Niger,False
+Nigeria,Nigeria,False
+North Macedonia,Macedonia,True
+Norway,Norway,False
+Oman,Oman,False
+Pakistan,Pakistan,False
+Panama,Panama,False
+Papua New Guinea,Pap. New Guinea,True
+Paraguay,Paraguay,False
+Peru,Peru,False
+Philippines,Philippines,False
+Poland,Poland,False
+Portugal,Portugal,False
+Qatar,Qatar,False
+Romania,Romania,False
+Russian Federation,Russia,True
+Rwanda,Rwanda,False
+Saudi Arabia,Saudi Arabia,False
+Senegal,Senegal,False
+Serbia,Serbia,False
+Seychelles,Seychelles,False
+Sierra Leone,Sierra Leone,False
+Singapore,Singapore,False
+Slovak Republic,Slovak Rep.,True
+Slovenia,Slovenia,False
+South Africa,South Africa,False
+Spain,Spain,False
+Sri Lanka,Sri Lanka,False
+Sudan,Sudan,False
+Suriname,Suriname,False
+Sweden,Sweden,False
+Switzerland,Switzerland,False
+Syrian Arab Republic,Syria,True
+Tajikistan,Tajikistan,False
+Tanzania,Tanzania,False
+Thailand,Thailand,False
+Timor-Leste,Timor-Leste,False
+Togo,Togo,False
+Trinidad and Tobago,Trinidad and Tobago,False
+Tunisia,Tunisia,False
+Turkiye,Turkey,True
+Uganda,Uganda,False
+Ukraine,Ukraine,False
+United Arab Emirates,United Arab Emirates,False
+United Kingdom,United Kingdom,False
+United States,United States,False
+Uruguay,Uruguay,False
+"Venezuela, RB",Venezuela,True
+Viet Nam,Vietnam,True
+"Yemen, Rep.","Yemen, Rep.",False
+Zambia,Zambia,False
+Zimbabwe,Zimbabwe,False

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freedom and Prosperity: The Human Freedom Index in Plain Words</title>
+<style>
+body { font-family: Georgia, serif; max-width: 820px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #222; }
+h1, h2 { font-family: Arial, Helvetica, sans-serif; line-height: 1.3; }
+img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+.callout { background: #f4f4f4; border-left: 4px solid #555; padding: 12px 16px; }
+a { color: #0b5394; }
+small { color: #555; }
+</style>
+</head>
+<body>
+<h1>Freedom and Prosperity</h1>
+<p>A beginner friendly story about the Human Freedom Index, and about how freedom scores line up with money and health. No prior knowledge is assumed. Every idea is explained before it is used.</p>
+<p>Repository: <a href="https://github.com/jwavalosq/Human_Freedom_Index">github.com/jwavalosq/Human_Freedom_Index</a>. This site is a local build in this project. Nothing was published from it.</p>
+
+<div class="callout">
+<h2>Read this first: what year is this, really?</h2>
+<p>The newest edition of the index is the 2025 edition, co-published by the Cato Institute and the Fraser Institute. According to the Fraser Institute summary, that edition uses 87 indicators, covers 165 countries, and its newest data year is 2023.</p>
+<p>The country by country numbers on this page are older. The direct 2025 data download from Cato returned a bot check error during this build, so the 2025 file could not be used. The numbers here come from the 2018 edition file, covering 2008 to 2016 for 162 countries. Do not read these charts as a picture of today. Read them as a picture of 2008 to 2016, with 2016 as the latest year.</p>
+</div>
+
+<h2>Chapter 1. How the index is built</h2>
+<p>Freedom, as the index defines it, means the absence of coercive constraint. In plain words, it means people being able to make their own choices without being forced by others.</p>
+<p>The overall score is the average of two halves, given equal weight. Personal freedom covers seven areas: rule of law, security and safety, movement, religion, association and assembly and civil society, expression and information, and identity and relationships. Economic freedom covers five areas: size of government, legal system and property rights, sound money, freedom to trade internationally, and regulation.</p>
+<p>Each score runs from 0 to 10, where 10 means more freedom as the index defines it. Equal weight is a choice by the index makers, not a law of nature.</p>
+<img src="charts/chart_personal_vs_economic.png" alt="Personal freedom versus economic freedom, 2016">
+<p>In 2016, personal and economic freedom scores were correlated at 0.63. That means they tend to go together, but they are not the same thing. The dots far from the diagonal line are countries where the two halves differ most.</p>
+<img src="charts/chart_personal_areas.png" alt="Personal freedom areas, world mean, 2016">
+<p>World mean for personal freedom areas in 2016, lowest to highest: rule of law 5.11, identity and relationships 6.98, association and civil society 7.11, religion 7.48, movement 7.67, expression and information 7.69, security and safety 8.07.</p>
+<img src="charts/chart_economic_areas.png" alt="Economic freedom areas, world mean, 2016">
+<p>World mean for economic freedom areas in 2016: legal system and property rights 5.21, size of government 6.48, regulation 7.02, freedom to trade 7.02, sound money 8.24.</p>
+
+<h2>Chapter 2. Freedom and money</h2>
+<p>GDP per capita means the total value of goods and services produced in a country in a year, divided by the number of people. It is a rough measure of average economic output per person. It is not income in a person's pocket. Source: World Bank, GDP per capita in current US dollars.</p>
+<img src="charts/chart_freedom_vs_gdp.png" alt="Freedom versus GDP per capita, 2016">
+<p>In 2016, for 161 countries, the Pearson correlation between overall freedom and GDP per capita was 0.62, and the Spearman correlation, which uses ranks, was 0.69. Correlation means two things tend to go up together. It does not prove that one causes the other.</p>
+<img src="charts/chart_gdp_by_quartile.png" alt="Median GDP per capita by freedom group, 2016">
+<p>Median GDP per capita in 2016, by freedom group: lowest freedom group 2,070 dollars, lower middle 2,231 dollars, upper middle 5,648 dollars, highest freedom 38,556 dollars. Median means the middle value, so one very rich country does not pull the group up.</p>
+
+<h2>Chapter 3. Freedom and health</h2>
+<p>Life expectancy at birth is the average number of years a newborn would live if death rates stayed as they are in that year. Infant mortality is the number of babies who die before their first birthday, per 1,000 live births. Lower is better for infant mortality. Sources: World Bank.</p>
+<img src="charts/chart_freedom_vs_life.png" alt="Freedom versus life expectancy, 2016">
+<p>In 2016, for 161 countries, the Pearson correlation between overall freedom and life expectancy was 0.62, and the Spearman correlation was 0.66.</p>
+<img src="charts/chart_freedom_vs_infant.png" alt="Freedom versus infant mortality, 2016">
+<p>In 2016, for 160 countries, the Pearson correlation between overall freedom and infant mortality was minus 0.58, and the Spearman correlation was minus 0.70. The minus sign is expected, because lower infant mortality is better.</p>
+
+<h2>Chapter 4. Regions over time</h2>
+<p>A regional mean here counts each country once, no matter how big its population is. Regions are the groupings used in the index file itself.</p>
+<img src="charts/chart_regional_trends.png" alt="Mean freedom score by region, 2008 to 2016">
+<img src="charts/chart_region_2016.png" alt="Mean freedom score by region, 2016">
+<p>Mean freedom score in 2016: North America 8.48, Western Europe 8.37, Oceania 7.88, East Asia 7.85, Eastern Europe 7.55, Latin America and the Caribbean 6.95, Caucasus and Central Asia 6.77, South Asia 6.47, Sub-Saharan Africa 6.27, Middle East and North Africa 5.76.</p>
+<p>From 2008 to 2016, Middle East and North Africa fell the most, by 0.58 points, from 6.34 to 5.76. East Asia and Sub-Saharan Africa rose by 0.11 points each. Every other region moved by 0.25 points or less.</p>
+
+<h2>Chapter 5. Biggest movers: the freedom momentum score</h2>
+<p>The freedom momentum score is an original metric built for this project. Subtract a country's 2008 overall score from its 2016 overall score. A change of plus 0.25 points or more is labelled rising. A change of minus 0.25 points or less is labelled falling. Anything in between is labelled steady. The 0.25 cut is a reading aid chosen for this project, not a threshold used by Cato or the Fraser Institute.</p>
+<p>Only 141 countries have a score in both 2008 and 2016. Results: 21 rising, 89 steady, 31 falling.</p>
+<img src="charts/chart_movers_up.png" alt="Largest rises in freedom score, 2008 to 2016">
+<p>Largest rises: Cote d'Ivoire, 5.70 to 6.53, up 0.83 points. Angola, 4.82 to 5.64, up 0.82 points. Zimbabwe, 4.94 to 5.62, up 0.68 points.</p>
+<img src="charts/chart_movers_down.png" alt="Largest falls in freedom score, 2008 to 2016">
+<p>Largest falls: Syria, 5.46 to 3.77, down 1.69 points. Egypt, 6.00 to 4.81, down 1.20 points. Venezuela, 5.26 to 4.20, down 1.06 points.</p>
+<img src="charts/chart_momentum_distribution.png" alt="Freedom momentum labels, 2008 to 2016">
+
+<h2>Chapter 6. The freedom versus outcomes gap</h2>
+<p>For 2016, this project compares a country's freedom rank with its GDP per capita rank. The gap is freedom rank minus GDP rank. A large gap does not mean a country is good or bad. It only means the two rankings do not line up.</p>
+<img src="charts/chart_gap_scatter.png" alt="Freedom rank versus GDP per capita rank, 2016">
+<img src="charts/chart_gap_bars.png" alt="Largest freedom versus GDP rank gaps, 2016">
+<p>Largest gaps where GDP rank is much higher than freedom rank: Saudi Arabia, freedom rank 146, GDP rank 34, gap plus 112. Brunei Darussalam, freedom rank 138, GDP rank 30, gap plus 108. United Arab Emirates, freedom rank 117, GDP rank 17, gap plus 100.</p>
+<p>Largest gaps in the other direction: Rwanda, freedom rank 71, GDP rank 147, gap minus 76. Burkina Faso, freedom rank 88, GDP rank 151, gap minus 63. Ghana, freedom rank 57, GDP rank 119, gap minus 62.</p>
+
+<h2>Honest cuts</h2>
+<ul>
+<li>2025 country scores were cut, because the Cato 2025 data file returned HTTP 403 during this build. The 2018 edition file, 2008 to 2016, was used instead.</li>
+<li>Maps were cut. No map was drawn, to avoid silently misplacing countries with a wrong shape file join.</li>
+<li>Population weighted regional means were cut. Every mean here counts each country once.</li>
+<li>Causal claims were cut on purpose. Correlations are reported, causation is not claimed.</li>
+<li>Kaggle files for later editions were cut, because they need a sign in, and this build does not sign in anywhere.</li>
+<li>Taiwan is left out of the outcome charts, because the World Bank API reply used here has no Taiwan record. It was not filled in from another source.</li>
+<li>21 countries have no 2008 score, so they have no momentum score. They are not counted as steady.</li>
+</ul>
+
+<h2>Sources</h2>
+<p>Human Freedom Index, Cato Institute and Fraser Institute, 2018 edition file, as mirrored at the URL in data/raw/PROVENANCE.md. Human Freedom Index 2025 summary, Fraser Institute, used only for headline facts about the newest edition. World Bank, World Development Indicators, via the public API: GDP per capita, life expectancy at birth, infant mortality, and total population.</p>
+<p><small>This project reports scores as the index defines them. It takes no political position, and it does not rank countries as good or bad. Correlation is not causation.</small></p>
+</body>
+</html>
