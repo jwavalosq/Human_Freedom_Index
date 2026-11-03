@@ -276,8 +276,7 @@ to charts/.
 - scripts/: download_data.py, build_processed.py,
   build_notebooks.py, and run_notebooks.py.
 - docs/: a static story site, docs/index.html, with chart
-  copies in docs/charts/. It is a local site in this build.
-  Nothing was published.
+  copies in docs/charts/. It is the published story site for this repo.
 
 ## Sources and attribution
 
