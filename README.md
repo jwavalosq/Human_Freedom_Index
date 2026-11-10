@@ -5,6 +5,8 @@ and at how freedom scores line up with money and health outcomes.
 No prior knowledge is assumed. Every idea is explained before it
 is used, and every number is tied to a stated public source.
 
+Read the story version: https://jwavalosq.github.io/Human_Freedom_Index/
+
 ## The story in one paragraph
 
 The Human Freedom Index tries to turn a big idea, freedom, into
