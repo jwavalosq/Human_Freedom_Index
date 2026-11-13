@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Freedom and Prosperity: The Human Freedom Index in Plain Words</title>
+<title>Freedom and Prosperity: What the Human Freedom Index Can and Cannot Tell Us</title>
 <style>
 body { font-family: Georgia, serif; max-width: 820px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #222; }
 h1, h2 { font-family: Arial, Helvetica, sans-serif; line-height: 1.3; }
@@ -15,7 +15,7 @@ small { color: #555; }
 </head>
 <body>
 <h1>Freedom and Prosperity</h1>
-<p>A beginner friendly story about the Human Freedom Index, and about how freedom scores line up with money and health. No prior knowledge is assumed. Every idea is explained before it is used.</p>
+<p>I wanted to understand a big idea, freedom, through data. The Human Freedom Index tries to turn that idea into a number from 0 to 10 for each country. I built this project to explain how the index works, to test how its scores line up with money and health outcomes, and to say plainly where the line stops between correlation and causation. No prior knowledge is assumed. Every idea is explained before it is used.</p>
 <p>Repository: <a href="https://github.com/jwavalosq/Human_Freedom_Index">github.com/jwavalosq/Human_Freedom_Index</a>. This is the published story site for this repo.</p>
 
 <div class="callout">
@@ -57,7 +57,7 @@ small { color: #555; }
 <p>From 2008 to 2016, Middle East and North Africa fell the most, by 0.58 points, from 6.34 to 5.76. East Asia and Sub-Saharan Africa rose by 0.11 points each. Every other region moved by 0.25 points or less.</p>
 
 <h2>Chapter 5. Biggest movers: the freedom momentum score</h2>
-<p>The freedom momentum score is an original metric built for this project. Subtract a country's 2008 overall score from its 2016 overall score. A change of plus 0.25 points or more is labelled rising. A change of minus 0.25 points or less is labelled falling. Anything in between is labelled steady. The 0.25 cut is a reading aid chosen for this project, not a threshold used by Cato or the Fraser Institute.</p>
+<p>The freedom momentum score is an original metric I built for this project. Subtract a country's 2008 overall score from its 2016 overall score. A change of plus 0.25 points or more is labelled rising. A change of minus 0.25 points or less is labelled falling. Anything in between is labelled steady. The 0.25 cut is a reading aid I chose for this project, not a threshold used by Cato or the Fraser Institute.</p>
 <p>Only 141 countries have a score in both 2008 and 2016. Results: 21 rising, 89 steady, 31 falling.</p>
 <img src="charts/chart_movers_up.png" alt="Largest rises in freedom score, 2008 to 2016">
 <p>Largest rises: Cote d'Ivoire, 5.70 to 6.53, up 0.83 points. Angola, 4.82 to 5.64, up 0.82 points. Zimbabwe, 4.94 to 5.62, up 0.68 points.</p>
@@ -66,11 +66,14 @@ small { color: #555; }
 <img src="charts/chart_momentum_distribution.png" alt="Freedom momentum labels, 2008 to 2016">
 
 <h2>Chapter 6. The freedom versus outcomes gap</h2>
-<p>For 2016, this project compares a country's freedom rank with its GDP per capita rank. The gap is freedom rank minus GDP rank. A large gap does not mean a country is good or bad. It only means the two rankings do not line up.</p>
+<p>For 2016, I compared a country's freedom rank with its GDP per capita rank. The gap is freedom rank minus GDP rank. A large gap does not mean a country is good or bad. It only means the two rankings do not line up.</p>
 <img src="charts/chart_gap_scatter.png" alt="Freedom rank versus GDP per capita rank, 2016">
 <img src="charts/chart_gap_bars.png" alt="Largest freedom versus GDP rank gaps, 2016">
 <p>Largest gaps where GDP rank is much higher than freedom rank: Saudi Arabia, freedom rank 146, GDP rank 34, gap plus 112. Brunei Darussalam, freedom rank 138, GDP rank 30, gap plus 108. United Arab Emirates, freedom rank 117, GDP rank 17, gap plus 100.</p>
 <p>Largest gaps in the other direction: Rwanda, freedom rank 71, GDP rank 147, gap minus 76. Burkina Faso, freedom rank 88, GDP rank 151, gap minus 63. Ghana, freedom rank 57, GDP rank 119, gap minus 62.</p>
+
+<h2>What I take away from this</h2>
+<p>In 2016, freer countries tended to be richer and healthier, most countries changed little over eight years, and a few changed a lot, in both directions. That is a tested picture, not a proof of cause. Income, education, health care, history, geography, and institutions could all play a part, and this project does not separate those parts. What I built here, and what I am proudest of, is the discipline to show you the finding and its limit in the same breath.</p>
 
 <h2>Honest cuts</h2>
 <ul>
